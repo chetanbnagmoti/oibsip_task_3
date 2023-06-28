@@ -38,7 +38,7 @@ The goal of this project is to create a custom pizza ordering system with user a
 
 The project will involve creating frontend components using React, setting up the Node.js server and API routes, integrating the MongoDB database, implementing authentication and authorization functionalities, integrating the Razorpay payment gateway, managing inventory, and handling email notifications.
 
-Remember to break down the project into smaller tasks, plan and design the database schema, and implement the frontend and backend components in a modular and organized manner.
+
 
 
 Task_3:-
