@@ -1,5 +1,46 @@
 # oibsip_task_3
 𝗢𝗜𝗕𝗦𝗜𝗣 𝐉𝐮𝐧𝐞- 𝐏2 𝗧𝗔𝗦𝗞 -3 Web Development and Designing || Pizza App:-
+Project Description:
+
+The goal of this project is to create a custom pizza ordering system with user and admin functionalities. The app will be built using React for the frontend, Node.js for the backend, and MongoDB for the database. The app will have the following features:
+
+1. User and Admin Authentication:
+   - Users can register, login, and verify their email addresses.
+   - Users can reset their passwords if they forget them.
+   - Admins can log in to access the admin dashboard.
+
+2. User Dashboard:
+   - After logging in, users can view the available pizza varieties.
+   - Users can customize their pizza by selecting a base, sauce, cheese, and veggies.
+   - Users can proceed to checkout using the Razorpay payment gateway.
+
+3. Admin Dashboard:
+   - Admins can manage the inventory of pizza ingredients such as base, sauce, cheese, veggies, and meat.
+   - Admins can view the current stock of ingredients and update them as necessary.
+   - Admins receive notifications when the available stock goes below a threshold value.
+   - Admins can view and manage incoming orders.
+
+4. Order Management:
+   - After placing an order, the necessary changes in stock are automatically updated.
+   - Admins can change the status of the order (order received, in the kitchen, sent to delivery).
+   - Users can track the status of their orders in the user dashboard.
+
+5. Email Notifications:
+   - Users receive email verification links and password reset instructions.
+   - Admins receive notifications when the available stock goes below the threshold value.
+   - Users receive order confirmation and status update notifications.
+
+6. Integration:
+   - Integrate the Razorpay checkout system for payment processing.
+   - Use React Router for client-side routing.
+   - Use Axios for making API calls between the frontend and backend.
+   - Use Mongoose as the MongoDB object modeling tool for data manipulation.
+
+The project will involve creating frontend components using React, setting up the Node.js server and API routes, integrating the MongoDB database, implementing authentication and authorization functionalities, integrating the Razorpay payment gateway, managing inventory, and handling email notifications.
+
+Remember to break down the project into smaller tasks, plan and design the database schema, and implement the frontend and backend components in a modular and organized manner.
+
+
 Task_3:-
 1. Create a full stack app using React, MongoDB, and Nodejs.
 2. Create an admin login and a user login with complete registration, authorization, email verification, and forgot password system.
